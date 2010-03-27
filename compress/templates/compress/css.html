@@ -1,1 +1,1 @@
-<link href="{{ url }}" rel="stylesheet" type="text/css"{% if media %} media="{{ media }}"{% endif %}{% if title %} title="{{ title|default:"all" }}"{% endif %}{% if charset %} charset="{{ charset }}"{% endif %} />
+<link href="{{ url }}{% if version %}?{{ version }}{% endif %}" rel="stylesheet" type="text/css"{% if media %} media="{{ media }}"{% endif %}{% if title %} title="{{ title|default:"all" }}"{% endif %}{% if charset %} charset="{{ charset }}"{% endif %} />

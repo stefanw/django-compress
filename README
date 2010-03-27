@@ -18,6 +18,12 @@ access the latest and greatest code from both git and Subversion.
 The documentation is available online at Github[3], or under docs/ in the 
 source.
 
+------
+
+Forked by Stefan Wehrmeyer to include following:
+ * append version as query string instead of ugly filenames when settings.COMPRESS_VERSION = True
+ * template tags may store file paths as a list in a given template variable: {% compressed_css as cssfiles %}
+
 [1] http://github.com/pelme/django-compress/tree/master
 [2] http://code.google.com/p/django-compress/
 [3] http://github.com/pelme/django-compress/tree/master/docs
